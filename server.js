@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json()); 
 
 // Firebase Admin SDK Connecting
-const serviceAccount = require('./ultrachatri-firebase-adminsdk-6pacg-0b87d795dd.json'); // Download this from Firebase console
+const serviceAccount = require('./ultrachatri-firebase-adminsdk-6pacg-96c83379ac.json'); // Download this from Firebase console
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://ultrachatri-default-rtdb.firebaseio.com/"
